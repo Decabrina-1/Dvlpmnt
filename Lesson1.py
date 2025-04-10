@@ -1,0 +1,16 @@
+number1 = int(input('введите первое число: '))
+number2 = int(input('введите второе число: '))
+summa = number1 + number2
+raznost = number1 - number2
+chastnoe= number1 / number2
+proizvedenie = number1 * number2
+stepen = number1 ** number2
+tzeloch_delenie = number1 // number2
+ostatok_tzeloch_delenie = number1 % number2
+print(f'сумма чисел = {summa}')
+print(f'разность чисел = {raznost}')
+print(f'частное чисел = {chastnoe}')
+print(f'произведение чисел = {proizvedenie}')
+print(f'возведение в степень  = {stepen}')
+print(f'целочисленное деление  = {tzeloch_delenie}')
+print(f'остаток целочисленного деления  = {ostatok_tzeloch_delenie}')
